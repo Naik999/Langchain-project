@@ -26,7 +26,7 @@ if User_animal_type =="Rabbit":
 
 
 if pet_color:
-    st.button("Submit")'
+    st.button("Submit")
         responce = lch.generate_pet_name(User_animal_type,pet_color) 
         st.text(responce['pet_name'])
 
