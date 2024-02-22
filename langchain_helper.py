@@ -1,9 +1,9 @@
 from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-# load_dotenv()
+load_dotenv()
 
 def generate_pet_name(animal_type , pet_color):
     llm = OpenAI(temperature=0.9)  
